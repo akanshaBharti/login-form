@@ -82,7 +82,7 @@ class input extends Component {
 
          <div className='lgoogle'>
          <button type='submit' className="btn my-2 my-sm-0 ">
-          <img src={google} width="20" height="20" ></img> | Login With Google
+          <img src={google} width="20" height="20" alt=''></img> | Login With Google
         </button>
         </div>
 

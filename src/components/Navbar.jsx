@@ -15,7 +15,7 @@ class Navbar extends Component {
       <path d="M10.228 15.667a5.21 5.21 0 0 0 .303-.086l.082-.025a8.019 8.019 0 0 0 4.162-3.3.25.25 0 0 0-.331-.35c-.215.112-.436.21-.663.294a6.367 6.367 0 0 1-2.243.4c-2.957 0-5.532-2.031-5.532-4.644.002-.135.017-.268.046-.399a4.543 4.543 0 0 0-.46 5.898l.003.005c.315.441.707.821 1.158 1.121h.003l.144.09c.877.55 1.721 1.078 3.328.996Z"/>
       </svg>  
   
-      <a className="navbar-brand" href="#">Stellar</a>
+      <h1 className="navbar-brand">Stellar</h1>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
       </button>
@@ -23,13 +23,13 @@ class Navbar extends Component {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+        <li className="nav-link">Home <span className="sr-only">(current)</span></li>
       </li>
       <li className="nav-item active">
-        <a className="nav-link" href="#">Tees</a>
+        <li className="nav-link">Tees</li>
       </li>
       <li className="nav-item active">
-        <a className="nav-link" href="#">Mobile Cases</a>
+        <li className="nav-link">Mobile Cases</li>
       </li>
     </ul>
   </div>
