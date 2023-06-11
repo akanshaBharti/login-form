@@ -8,19 +8,19 @@ import {
 } from "react-router-dom";
 
 import Navbar from './components/Navbar';
-import Input from './components/Input';
+import Input from './components/Input';  
 import InputLogin from './components/InputLogin';
 import InputNext from './components/InputNext';
 
 function App() {
-  return (
+  return (  
     <Router>
-      <div>
+      <div>  
       <Navbar/>
       
       <Routes>
        <Route exact path='/' element={<Input/>}/>
-        <Route exact path='/Input' element={<Input/>}/>
+        <Route exact path='/Signup' element={<Input/>}/>
         <Route exact path='/InputLogin' element={<InputLogin/>}/>
         <Route exact path='/InputNext' element={<InputNext/>}/>
 

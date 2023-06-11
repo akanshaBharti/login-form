@@ -7,9 +7,9 @@ import google from './Google_Icons.webp'
 
 class input extends Component {
     constructor(props) {
-      super(props)
+      super(props)  
     
-      this.state = {
+      this.state = { 
          name:'',
          email:'',
          password:'',
@@ -32,7 +32,7 @@ class input extends Component {
     handleEmailChange=(event)=>{
         this.setState({
             email: event.target.value
-        })
+        })  
     }
     handlePasswordChange=(event)=>{
         this.setState({

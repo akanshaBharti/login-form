@@ -11,7 +11,7 @@ class InputLogin extends Component {
       this.state = {
          email_MobileNumber: '',
          password:'',
-      }
+      }  
     }
 
     handleEPChange=(event)=>{
